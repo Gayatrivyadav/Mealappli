@@ -1,31 +1,44 @@
 *{
 width:100%;
 }
-#nav{
+#nav img{
+    width:100px;
+    height: 100px;
+    /*margin-top:160px;*/
+}
+#nav #addto{
   width:100%;
   height:50px;
+    background:black;
+    color:white;
+    margin-left: 1300px;
 
-  
 }
-#myInput{
+#nav #addto{
+margin-top:-190px;
+}
+#nav #myInput {
    background:lightgrey;
    border:none;
-/*    float:right; */
-  margin-left:800px;
-   margin-top: 25px;
-   margin-right:130px;
-   width:280px;
+    float:left;
+  margin-left:900px;
+   margin-top: -50px;
+   margin-right:230px;
+   width:220px;
    height:30px;
+    border-radius:30px;
    
-} 
-#myInput:hover{
+}
+
+#nav #myInput:hover{
   background:black;
   color:white;
+    width:300px;
+    transition: 2s linear;
 }
 #main{
   margin-top:60px;
   padding:10px;
-  
 }
 #nav{
   width:100px;
@@ -67,7 +80,7 @@ width:100%;
 }
 #addto{
     margin-left: 90px;
-    margin-top: 90px;
+    margin-top: 40px;
     font-size:17px;
 }
 id1, p a{
@@ -84,19 +97,20 @@ button{
   margin-left:10px;
   
 }
-.btn1{
-    width:100px;
+button .btn1{
+    width:150px;
     background-color: black;
     color: #EBECF0;
     text-decoration: none;
     margin-left: 90px;
 }
-button, .btn1{
-
+.btn1:hover{
+    background-color: orange;
+    color:black;
+    box-shadow: 1px 1px 3px 5px orange;
 }
 button i{
   font-size:30px;
- 
 }
 #fav{
     width:350px;
